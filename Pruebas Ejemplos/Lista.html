@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Listas</title>
+    <!--CSS-->
+    <style>
+        h1, h2, h3{
+        color: red;
+        text-align: center;
+        }
+        p{
+        color: green;
+        font-size: 20px;
+        width: 200px;
+        }
+        .highligth {
+        font-size: 20px;
+        font-weigth: bold;
+        background-color: black;
+        color: white;
+        opacity: .7;
+        }
+        #top{
+        color: blue;
+        text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<h1 id="top">Ejemplos de listas e hipervinculos</h1>
+<!--    -->
+<header>
+    Ejemplo de listas con y sin orden además de entidades en html caracteres como mayor/menor que el and
+    o no&nbsp;separar&nbsp;espacios&nbsp;entre&nbsp;palabras al modificar la ventana.
+    <nav>
+        <ul>
+            <li><a href="#lista sin orden">lista sin orden compras</a></li>
+            <li><a href="#lista con orden">#lista con orden preparar galletas</a></li>
+        </ul>
+    </nav>
+</header>
+<!--    -->
+<h1>Lista sin orden</h1>
+<section id="lista sin orden">
+    Mi tipica lista de compras de comida:
+    <div>
+        <img src="https://www.portafolio.co/files/article_multimedia/files/crop/uploads/2023/01/02/63b34a9a2bb42.r_1672700834447.320-0-950-475.jpeg"
+         width="400" height="235" alt="Carrito de compras">
+    </div>
+    <ul>
+        <li>Leche</li>
+        <li>Donas</li>
+        <li>Galletas
+        <ul>
+            <li>Chocolate</li>
+            <li>Azucar</li>
+            <li>Crema de maní</li>
+        </ul>
+        </li>
+        <li>Pepto Bismol</li>
+    </ul>
+    <a href="https://buenprovecho.hn/en-la-cocina/utensilios-basicos-para-hornear-galletas/"> Link de lista de compras para realizar galletas</a>
+</section>
+<!--    -->
+<h1>Lista con orden</h1>
+<section id="lista con orden">
+    &quot; Como cocinar galletas &quot;:
+    <div>
+        <img src="galletas-de-chocolate-al-microondas-1.jpg" width="400" height="235" alt="Foto de galletas">
+    </div>
+    <ol>
+        <li>Abrir la caja</li>
+        <li>Sacas la galleta</li>
+        <li>Hacer la doble oreo
+            <ol class="highligth">
+                <li>Quitar la parte de arriba</li>
+                <li>Poner otra galleta en el medio</li>
+                <li>Poner la parte de arriba</li>
+            </ol>
+        </li>
+        <li>Disfrutar</li>
+    </ol>
+</section>
+<section>
+    Vinculos dentro de un mismo directorio
+    <a href="DivSpan.html" target="_blank" title="En el mismo directorio, abrir en nueva pestaña"> Link a un archivo en el mismo directorio</a>
+    <a href="DivSpan.html" title="Para lectores de pantalla"> <div> DIV Link a un archivo en el mismo directorio</div>
+    </a>
+</section>
+<p>Volver al top <a href="#top">Devuelta al principio</a></p>
+<footer>
+    Copyrigth &copy; 1999
+</footer>
+</body>
+</html>
