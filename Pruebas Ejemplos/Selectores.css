@@ -1,0 +1,48 @@
+
+    .Highlight {
+    color: blue;
+    }
+    p.Highlight{
+    font-style: italic;
+    }
+    .Highlight.Mainpoint{
+    font-size: 24px;
+    }
+    section > article {
+    color: green;
+    font-size: 24;
+    }
+    section > h2{
+    color: green;
+    }
+    section li{
+    color: green;
+    }
+    header li{
+    list-style: none;
+    }
+    a:link, a:visited{
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+    }
+    a:hover, a:active{
+    background-color: red;
+    opacity: 1;
+    color: purple;
+    }
+    header li:nth-child(3){
+    font-size: 24px;
+    }
+    section div:nth-child(odd){
+    background-color: gray;
+    }
+    section div:nth-child(4):hover{
+    background-color: green;
+    cursor: pointer;
+    }
