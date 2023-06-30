@@ -1,27 +1,40 @@
-
-    .Highlight {
+/* se hereda a todos los elementos pertenecientes al body */
+body{
+    font-family: Helvetica;
+    font-size: 16px; /*Default*/
+}
+.Highlight {
     color: blue;
-    }
-    p.Highlight{
+}
+
+p.Highlight {
     font-style: italic;
-    }
-    .Highlight.Mainpoint{
+    text-transform: capitalize;
+}
+
+.Highlight.Mainpoint {
     font-size: 24px;
-    }
-    section > article {
-    color: green;
+}
+
+section>article {
+    color: #00ff00;
     font-size: 24;
-    }
-    section > h2{
+}
+
+section>h2 {
     color: green;
-    }
-    section li{
+}
+
+section li {
     color: green;
-    }
-    header li{
+}
+
+header li {
     list-style: none;
-    }
-    a:link, a:visited{
+}
+
+a:link,
+a:visited {
     text-decoration: none;
     background-color: white;
     border: 1px solid blue;
@@ -30,19 +43,24 @@
     width: 200px;
     text-align: center;
     margin-bottom: 1px;
-    }
-    a:hover, a:active{
+}
+
+a:hover,
+a:active {
     background-color: red;
     opacity: 1;
     color: purple;
-    }
-    header li:nth-child(3){
+}
+
+header li:nth-child(3) {
     font-size: 24px;
-    }
-    section div:nth-child(odd){
+}
+
+section div:nth-child(odd) {
     background-color: gray;
-    }
-    section div:nth-child(4):hover{
+}
+
+section div:nth-child(4):hover {
     background-color: green;
     cursor: pointer;
-    }
+}

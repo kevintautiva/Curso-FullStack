@@ -1,0 +1,29 @@
+div {
+    background-color: #00FFFF;
+}
+/* Los elementos flotates se salen del documento, no se tienen en cuenta para tamaños, margenes, etc*/
+p{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#p1{
+    background-color: #A52A2A;
+}
+#p2{
+    background-color: #DEB887;
+}
+#p3{
+    background-color: #5F9EA0;
+    clear: both;
+}
+#p4{
+    background-color: #FF7F50;
+}
+section{
+    /* The browser should resume the regular document flow */
+    clear: left /*No se debe permitir que nada esté flotando a la izquierda de la sección*/;
+}
